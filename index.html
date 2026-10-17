@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="看板を増やさず、店との出会いを増やす。GeoLayerのコンセプトと架空店舗の広告を体験するデモサイトです。">
+  <meta name="color-scheme" content="light">
+  <title>GeoLayer — 風景の、その先の出会い。</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./assets/app.mjs"></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./index.html" aria-label="GeoLayer トップ"><img src="./assets/mark.svg" width="32" height="32" alt=""><span>GeoLayer</span></a>
+    <nav aria-label="メインメニュー"><a href="#about">GeoLayerについて</a><a href="#stores">デモ店舗を見る <span aria-hidden="true">↗</span></a></nav>
+    <span class="demo-badge">CONCEPT DEMO</span>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-line"></span> 風景の、その先の出会い。</p>
+        <h1 id="hero-title">看板を増やさず、<br>店との出会いを<br class="desktop-break">増やす。</h1>
+        <p class="hero-description">街の景色は、そのままに。<br>目の前の風景に、小さな店の物語を重ねる。<br>GeoLayerは、街と人の新しい接点をつくります。</p>
+        <a class="button" href="#stores">デモの店舗を見てみる <span aria-hidden="true">↗</span></a>
+        <p class="quiet-note">このサイトは架空店舗を用いた試作デモです。</p>
+      </div>
+      <figure class="hero-art">
+        <img src="./assets/town.svg" width="720" height="660" alt="山並みと街の景色に、喫茶店や工芸店の情報がそっと重なるGeoLayerのコンセプト図">
+        <figcaption><span class="live-dot" aria-hidden="true"></span> 景色を変えずに、見つかるきっかけを。<span class="art-label">CONCEPT ILLUSTRATION</span></figcaption>
+      </figure>
+    </section>
+    <div class="concept-band"><div class="wrap"><p>風景を守ることと、<br class="mobile-only">店を知ってもらうこと。</p><p>その両方を、ひとつの体験に。</p></div></div>
+    <section id="stores" class="store-section wrap" aria-labelledby="stores-title">
+      <div class="section-heading"><div><p class="eyebrow">LOCAL STORIES / DEMO</p><h2 id="stores-title">まだ知らない、<br class="mobile-only">店の物語。</h2></div><p>気になる店を選んで、広告ページへ。<br>4つの架空店舗で、出会いの先を体験してください。</p></div>
+      <div class="catalog-status" id="catalog-status" role="status" aria-live="polite">デモ店舗を読み込んでいます。</div>
+      <div class="store-grid" id="store-list" aria-label="架空店舗一覧"></div>
+      <noscript><p class="notice">店舗情報を表示するにはJavaScriptを有効にしてください。このサイトの店舗はすべて架空です。</p></noscript>
+      <p class="section-footnote">掲載する店舗・ニュース・営業時間はすべてデモ用です。実在店舗への来店や購入を案内するものではありません。</p>
+    </section>
+    <section id="about" class="about-section" aria-labelledby="about-title"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">ONE PLACE, THREE WAYS</p><h2 id="about-title">出会い方は、ひとつじゃない。</h2></div><p>街の中で、自分に合う見つけ方を。<br>GeoLayerが目指す、3つの入口です。</p></div>
+      <div class="ways">
+        <article><span class="way-number">01 / AR</span><div class="way-symbol" aria-hidden="true">⌖</div><h3>かざして、気づく。</h3><p>カメラの先にある店の情報を、風景に重ねて。看板だけでは伝わらない魅力に出会います。</p></article>
+        <article><span class="way-number">02 / MAP</span><div class="way-symbol" aria-hidden="true">◎</div><h3>眺めて、見つける。</h3><p>周辺の店を地図や一覧で確認。方角に迷うときも、気になる店の情報へたどり着けます。</p></article>
+        <article><span class="way-number">03 / QR</span><div class="way-symbol qr-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></div><h3>読み取って、知る。</h3><p>店ごとのQRから、同じ広告へ。アプリでもWebでも、店の物語を受け取れる構想です。</p><span class="feature-note">QR読取・アプリ連携は準備中</span></article>
+      </div>
+    </div></section>
+    <section class="closing wrap"><p class="eyebrow">LANDSCAPE FIRST.</p><h2>街の魅力を、<br>街の景色のままで。</h2><p>増やしたいのは、看板ではなく出会い。<br>GeoLayerは、そのための小さな入口をつくっています。</p><a class="text-link" href="#stores">もう一度、デモ店舗を見る <span aria-hidden="true">↑</span></a></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="./index.html"><img src="./assets/mark.svg" width="26" height="26" alt=""><span>GeoLayer</span></a><p>景観と、出会いをつなぐ。</p><small>Ver.0.7 CONCEPT DEMO · 架空店舗の試作サイト</small></footer>
+</body>
+</html>

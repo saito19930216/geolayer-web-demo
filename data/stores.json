@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-17.1",
+  "stores": [
+    {
+      "id": "demo-cafe-001",
+      "name": "喫茶 こもれび",
+      "description": "歩く速度を、少しだけゆるめる場所。木のぬくもりを感じる空間で、一杯のコーヒーと季節の焼き菓子を楽しむ喫茶店をイメージしました。窓辺でひと息つく、そんな街歩きの余白を提案する架空の店舗です。",
+      "category": "CAFE",
+      "latitude": 35,
+      "longitude": 139,
+      "isPublished": true,
+      "advertisement": {
+        "image": null,
+        "news": [
+          {
+            "id": "demo-cafe-news-002",
+            "title": "秋のひと休みに、焼き菓子を。",
+            "body": "栗とほうじ茶の焼き菓子を想定した、季節のお知らせの表示例です。実際の販売・提供は行っていません。",
+            "publishedAtEpochMillis": 1792195200000
+          },
+          {
+            "id": "demo-cafe-news-001",
+            "title": "街歩きの途中で出会う、小さな喫茶店",
+            "body": "GeoLayerのデモ店舗としてご紹介しています。掲載写真・商品・営業時間は実在の店舗情報ではありません。",
+            "publishedAtEpochMillis": 1791590400000
+          }
+        ]
+      },
+      "openingHours": "10:00–18:00 ／ 水曜休み（デモ設定）"
+    },
+    {
+      "id": "demo-souvenir-001",
+      "name": "土産と暮らし つむぎ",
+      "description": "旅の思い出を、いつもの暮らしへ。手ぬぐいや小さな生活道具など、帰ってからも使いたくなる品を集めた土産物店をイメージしました。品物の背景にある物語との出会いを表現する架空の店舗です。",
+      "category": "SOUVENIR",
+      "latitude": 35.0004,
+      "longitude": 139.0008,
+      "isPublished": true,
+      "advertisement": {
+        "image": null,
+        "news": [
+          {
+            "id": "demo-souvenir-news-001",
+            "title": "持ち帰りたくなる、街の色。",
+            "body": "風景をモチーフにした手ぬぐいの紹介を想定したニュースです。この店舗や商品はデモ用の架空のものです。",
+            "publishedAtEpochMillis": 1792108800000
+          }
+        ]
+      },
+      "openingHours": "10:30–17:30 ／ 火曜休み（デモ設定）"
+    },
+    {
+      "id": "demo-restaurant-001",
+      "name": "季節の食卓 なぎ",
+      "description": "その日の街歩きを、一皿の思い出に。旬の野菜を使った定食と、落ち着いた時間を楽しむ食堂をイメージしました。路地の先で見つける食の楽しみを紹介する、デモ用の架空の店舗です。",
+      "category": "RESTAURANT",
+      "latitude": 34.9995,
+      "longitude": 139.0003,
+      "isPublished": true,
+      "advertisement": {
+        "image": null,
+        "news": [
+          {
+            "id": "demo-restaurant-news-001",
+            "title": "季節を味わう昼ごはん",
+            "body": "根菜ときのこの定食を想定した紹介例です。実際の予約・飲食提供・販売は受け付けていません。",
+            "publishedAtEpochMillis": 1792022400000
+          }
+        ]
+      },
+      "openingHours": "11:00–15:00 ／ 木曜休み（デモ設定）"
+    },
+    {
+      "id": "demo-craft-001",
+      "name": "手しごと 灯",
+      "description": "手に取ると伝わる、ものづくりの温度。土の表情を残した器や、暮らしになじむ工芸品が並ぶ店をイメージしました。作り手の思いにふれるきっかけを描いた、架空の店舗です。",
+      "category": "SHOP",
+      "latitude": 35.0006,
+      "longitude": 138.9996,
+      "isPublished": true,
+      "advertisement": {
+        "image": null,
+        "news": []
+      },
+      "openingHours": null
+    }
+  ]
+}
